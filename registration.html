@@ -13,11 +13,35 @@
             margin: 0;
         }
 
-        header {
-            background: #2daa64;
-            color: white;
-            text-align: center;
-            padding: 20px;
+       header {
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    background-image:
+        linear-gradient(rgba(0, 40, 25, 0.65), rgba(0, 40, 25, 0.65)),
+        url("images/burger.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 15px 15px;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            background: white;
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 15px 0 5px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 0;
         }
 
         .container {
@@ -85,9 +109,10 @@
 
 <body>
 
-    <header>
-        <h1>Ziv Celestial</h1>
-        <p>Customer Registration Form</p>
+   <header>
+    <img src="images/logo.png" alt="Ziv Celestial Logo">
+    <h1>Ziv Celestial</h1>
+    <p>Customer Registration</p>
     </header>
 
     <div class="container">
